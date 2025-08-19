@@ -1,0 +1,10 @@
+! Block shorts
+||m.youtube.com/shorts^$document
+||m.youtube.com/shorts*^$document
+||youtube.com/shorts^$document
+
+! Hide shorts
+m.youtube.com##ytm-rich-item-renderer:has(a[href*="/shorts/"])
+m.youtube.com##ytm-reel-shelf-renderer
+m.youtube.com##a[href*="/shorts/"]
+m.youtube.com##*:has(> a[href*="/shorts/"])
